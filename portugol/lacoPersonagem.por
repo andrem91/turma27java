@@ -1,19 +1,16 @@
 programa
 {
 	
-	funcao inicio() {
-		const inteiro COMECO = 233,  FIM = 456
-		inteiro contador = COMECO
-		faca {
-			escreva(contador)
-			escreva("\n")
-			se (contador >= 300 e contador <= 400) {
-				contador += 5
-			} senao {
-				contador += 3
-			}
-			
-		} enquanto(contador <= FIM)
+	funcao inicio()
+	{
+		cadeia personagem[5]
+		para(inteiro i = 0; i < 5; i++) {
+			escreva("Digite o nome do personagem " + (i+1) + ": ")
+			leia(personagem[i])
+		}
+		para(inteiro i = 4; i >= 0 ; i--) {
+			escreva(personagem[i]+"\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 284; 
+ * @POSICAO-CURSOR = 159; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

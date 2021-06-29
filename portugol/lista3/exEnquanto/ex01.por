@@ -1,8 +1,8 @@
-programa {
+programa {
 	
-	funcao inicio() {
-		inteiro numero = 0, soma = 0, contador = 0
-		real media = 0.0
+	funcao inicio() {
+		inteiro numero = 0, soma = 0
+		real media = 0.0, contador = 0
 
 		enquanto(numero >= 0) {
 
@@ -14,7 +14,7 @@ programa {
 			}
 		}
 		
-		media = soma / contador + 0.0
+		media = soma / contador
 		escreva("Soma = " + soma + "\n")
 		escreva("Média = " + media + "\n")
 		escreva("Total de valores lidos = " + contador)
@@ -26,7 +26,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 346; 
+ * @POSICAO-CURSOR = 264; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
