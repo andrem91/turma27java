@@ -8,7 +8,7 @@
 programa {
 	inclua biblioteca Util
 	
-	funcao inicio() {
+	funcao inicio() {
 		const inteiro LINHA = 4, COLUNA = 6
 		inteiro n1[LINHA][COLUNA], n2[LINHA][COLUNA], m1[LINHA][COLUNA], m2[LINHA][COLUNA]
 
@@ -20,28 +20,28 @@ programa {
 				m2[i][j] = n1[i][j] - n2[i][j]
 			}
 		}
-		escreva("--------------- MATRIZ N1 ---------------\n")
+		escreva("----------------- MATRIZ N1 -----------------\n")
 		para(inteiro i = 0; i < LINHA; i++) {
 			para(inteiro j = 0; j < COLUNA; j++) {
 				escreva(n1[i][j] + "\t")
 			}
 			escreva("\n")
 		}
-		escreva("--------------- MATRIZ N2 ---------------\n")
+		escreva("----------------- MATRIZ N2 -----------------\n")
 		para(inteiro i = 0; i < LINHA; i++) {
 			para(inteiro j = 0; j < COLUNA; j++) {
 				escreva(n2[i][j] + "\t")
 			}
 			escreva("\n")
 		}
-		escreva("--------------- MATRIZ M1 ---------------\n")
+		escreva("----------------- MATRIZ M1 -----------------\n")
 		para(inteiro i = 0; i < LINHA; i++) {
 			para(inteiro j = 0; j < COLUNA; j++) {
 				escreva(m1[i][j] + "\t")
 			}
 			escreva("\n")
 		}
-		escreva("--------------- MATRIZ M2 ---------------\n")
+		escreva("----------------- MATRIZ M2 -----------------\n")
 		para(inteiro i = 0; i < LINHA; i++) {
 			para(inteiro j = 0; j < COLUNA; j++) {
 				escreva(m2[i][j] + "\t")
@@ -55,7 +55,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 694; 
+ * @POSICAO-CURSOR = 1496; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
